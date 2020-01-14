@@ -12,7 +12,7 @@ body{
 }
 
 .corpo{
-    background: #efefef;
+    background-color: rgba(239,239,239,0.8);
     margin: 15px 250px;
     padding: 20px;
     border-radius: 10px;
@@ -24,14 +24,20 @@ body{
     vertical-align: middle;
 }
 
+.gmail{
+    font-size: 30px;
+    color: #696E73;
+    font-weight: lighter;
+}
+
 .search-section{
-    border-top: 4px solid lightgrey;
+    border-top: 2px solid grey;
     padding-top: 20px;
     margin-top: 20px;
 }
 
 .search-style{
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 10px;
     margin-bottom: 15px;
 }
@@ -39,8 +45,8 @@ body{
 .button-style{
     background-color: #287AE6;
     border-color: #287AE6;
-    border-radius: 8px;
-    padding: 10px 25px;
+    border-radius: 5px;
+    padding: 10px 30px;
     margin-left: 10px;
     margin-bottom: 15px;
     color: #FFFFFF;
@@ -52,15 +58,16 @@ body{
 }
 
 .sfondo{
-    background-color: orange;
+    background-color: #E75A4D;
     padding: 15px;
     border-radius: 50%;
     text-align: center;
     color: #FFFFFF;
     margin-left: 5px;
+    font-size: 25px;
 }
 header{
-    border-bottom: 4px solid lightgrey;
+    border-bottom: 2px solid grey;
 }
 main{
     font-family: 'Montserrat', sans-serif;
@@ -68,16 +75,28 @@ main{
     font-size: 14px;
     margin-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 4px solid lightgrey;
+    border-bottom: 2px solid grey;
 }
 
-p{
+.email-row{
     padding: 7px;
     border: 1px solid grey;
     border-radius: 7px;
-    font-weight: lighter;
     background: #FFFFFF;
+}
 
+.star:after {
+  content: "\02605";
+}
+
+.email-text {
+    font-weight: lighter;
+}
+.email-text:before {
+  content: " - ";
+}
+.email-text:after {
+  content: "...";
 }
 
 footer{
